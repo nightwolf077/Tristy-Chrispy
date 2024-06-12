@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Login in</title>
+  <meta charset="UTF-8">
+  <style>
+    body,
+    html {
+      background-image: url("index.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      height: 98%;
+    }
+
+    .log {
+      margin: auto;
+      width: 300px;
+      text-align: center;
+      background-color: rgb(97, 71, 6);
+      width: 290px;
+      height: 140px;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      position: absolute;
+      border-radius: 20%;
+    }
+
+    .for {
+      margin-top: 20px;
+    }
+
+    .hype {
+      text-decoration: none;
+      margin-top: 10px;
+      color: black;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+
+    .l1 {
+      float: right;
+      margin-right: 20px;
+      margin-bottom: 3px;
+    }
+    .logbut{
+      color: white;
+      background-color: black;
+      border-color: black;
+      font-size: 15px;
+    }
+    .trist{
+      width: 101.4%;
+      height: 130px;
+      margin-top: -10px;
+      margin-left: -10px;  
+    }
+    
+  </style>
+</head>
+
+<body>
+  <header><img src="Capture2.PNG" class="trist"></header>
+  <div class="log">
+    <form method="POST" action="checkdata.php" class="for">
+      <label class="l1">Username : <input type="text" class="l1"  name="firstn"></label><br>
+      <label class="l1">Password : <input type="password" class="l1" name="pass"></label><br>
+      <input type="submit" class="logbut" value="LOGIN">
+    </form>
+    
+    <p><a href="create acount.html" class="hype">create your acount</a></p>
+    
+  </div>
+</body>
+
+</html>

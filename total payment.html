@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Total</title>
+        <meta charset="UTF-8">
+        <style>
+            body,html {
+            background-image: url("index.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 98%;
+        }
+        nav{
+            color: white;
+            background-color: rgb(44, 2, 2);
+            width: 100%;
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            height: 70px;
+            justify-content: space-between;
+            justify-content: space-between;
+            display: flex;
+            margin-top: 65px;
+        }
+
+        nav a {
+
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 15px;
+            font-size: 30px;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .trist{
+            width: 101.4%;
+            height: 130px;
+            margin-top: -10px;
+            margin-left: -10px;  
+        }
+        
+        .home:hover{
+            border-bottom-style:solid;
+        }
+        .cont:hover{
+            border-bottom-style:solid;
+        }
+        .menu:hover{
+            border-bottom-style:solid;
+        }
+        .
+        .heading header img {
+            margin-right: 10px; 
+        }
+
+        .myacount {
+            margin-left: auto; 
+            text-decoration: none;
+            overflow: hidden;
+            font-size: 25px;
+            display: block;
+            color: black;
+            margin-top: -116px;
+            margin-left: 20px;
+        }
+
+        .pay {
+            margin: auto;
+            text-align: center;
+            background-color: rgb(97, 71, 6);
+            width: 500px;
+            height: 240px;
+            margin-top: 225px;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            position: absolute;
+            border-radius: 20%;
+            font-size: 20px;
+        }
+        select{
+            margin-left: 10px;
+        }
+        .tot{
+            height: 30px;
+            font-size: 30px;
+        }
+        uu{
+            text-decoration: none;
+            color: white;
+        }
+        
+        
+        </style>
+    </head>
+    <body>
+        
+        <div class="heading">
+            <header>
+                <img src="Capture2.PNG" class="trist">
+                <a href="Edit data and delete.html" class="myacount">My Account</a>    <br><br><br><br>
+            </header>
+        </div>
+        <nav>
+                
+            <a class="uu home" href="Home.html">Home</a>
+            <a class="uu menu" href="Menu.html">Menu</a>
+            <a class="uu cont" href="Contact Us.html">Contact Us</a>
+        </nav>
+
+        <div class="pay">
+            <h1>your Total is : <input type="text" name="total" size="2" class="tot"></h1>
+            <form method="POST" action="thank.html" class="for2"><b>Please select the payment method </b> 
+                <select >  
+                    <option value=""></option>
+                    <option value="">Visa</option>
+                    <option value="">PayPal</option>
+                    <option value="">Mastercard</option>
+                </select>
+                <br><br><br>
+                <input type="submit" value="Order" style="background-color: black; color: white; font-size: 20px;">
+            </form>
+        </div>
+                
+    </body>
+</html>

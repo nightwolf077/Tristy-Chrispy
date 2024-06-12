@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Create acount</title>
+    <style>
+        body,html {
+            background-image: url("index.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 98%;
+        }
+
+        .log {
+            margin: auto;
+            width: 300px;
+            text-align: center;
+            background-color: rgb(97, 71, 6);
+            width: 320px;
+            height: 240px;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            position: absolute;
+            border-radius: 20%;
+        }
+
+        .for {
+            margin-top: 50px;
+        }
+
+        .hype {
+            text-decoration: none;
+            margin-top: 10px;
+            color: black;
+        }
+
+        .l1 {
+            float: right;
+            margin-right: 10px;
+            margin-bottom: 3px;
+            
+            
+        }
+        .button{
+            text-align: center;
+            margin-bottom: 0;
+            color: white;
+            background-color: black;
+            border-color: black;
+            font-size: 15px;
+            
+        }
+        .trist{
+            width: 101.4%;
+            height: 130px;
+            margin-top: -10px;
+            margin-left: -10px;  
+        }
+        .creation{
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header><img src="Capture2.PNG" class="trist"></header>
+    <div class="log">
+        <form method="POST" action="adddata.php" class="creation">
+            <label class="l1">First name : <input type="text" class="l1"name="firstn" required></label><br>
+            <label class="l1">Last name : <input type="text" class="l1" name="lastn" ></label><br>
+            <label class="l1">Phone number : <input type="tel" class="l1" name="phone" placeholder="07xxxxxxxx" maxlength="10" required></label><br>
+            <label class="l1">Password : <input type="password" class="l1" name="pass" required></label><br>
+            <label class="l1">Confirm Password : <input type="password" class="l1" name="pass2" required></label>
+            <label class="l1">Email : <input type="email" class="l1" name="email" placeholder="example@yahoo.com"></label> 
+            <br><br><br><br><br><br>
+
+            <label ><input type="submit" value="Create your account" class="button"></label>
+        </form>
+
+    </div>
+</body>
+
+</html>

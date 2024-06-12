@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>edit and delete</title>
+        <meta charset="UTF-8">
+        <style>
+            body,html {
+            background-image: url("index.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 98%;
+        }
+        nav{
+            color: white;
+            background-color: rgb(44, 2, 2);
+            width: 100%;
+            position: absolute;
+            display: block;
+            top: 0;
+            left: 0;
+            height: 70px;
+            justify-content: space-between;
+            justify-content: space-between;
+            display: flex;
+            margin-top: 65px;
+        }
+
+        nav a {
+
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 15px;
+            font-size: 30px;
+            text-decoration: none;
+            color: white;
+        }
+        
+        .trist{
+            width: 101.3%;
+            height: 130px;
+            margin-top: -10px;
+            margin-left: -10px;  
+        }
+        .menu:hover{
+            border-bottom-style:solid;
+        }
+        .home:hover{
+            border-bottom-style:solid;
+        }
+        .edition{
+            margin-top: 20px;
+        }
+        .log {
+            margin: auto;
+            width: 300px;
+            text-align: center;
+            background-color: rgb(97, 71, 6);
+            width: 320px;
+            height: 300px;
+            top: 0;
+            right: 0;
+            left: 0;
+            bottom: 0;
+            position: absolute;
+            border-radius: 20%;
+        }
+
+        .for {
+            margin-top: 50px;
+        }
+
+        .hype {
+            text-decoration: none;
+            margin-top: 10px;
+            color: black;
+        }
+
+        .l1 {
+            float: right;
+            margin-right: 10px;
+            margin-bottom: 3px;
+            
+            
+        }
+        .button{
+            text-align: center;
+            margin-bottom: 0;
+            color: white;
+            background-color: black;
+            border-color: black;
+            font-size: 15px;
+            
+        }
+
+        .heading header img {
+            margin-right: 10px; 
+        }
+
+        .myacount {
+            margin-left: auto; 
+            text-decoration: none;
+            overflow: hidden;
+            font-size: 25px;
+            display: block;
+            color: black;
+            margin-top: -116px;
+            margin-left: 20px;
+        }
+        
+        </style>
+    </head>
+    <body>
+        <div class="heading">
+            <header>
+                <img src="Capture2.PNG" class="trist">
+                <a href="Edit data and delete.html" class="myacount">My Account</a>    <br><br><br><br>
+            </header>
+        </div>
+        <nav>
+            <a class="home" href="Home.html">Home</a>
+            <a class="menu" href="Menu.html">Menu</a>
+            <a class="cont" href="Contact Us.html">Contact Us</a>
+        </nav>
+        <div class="log">
+            <h1>Edit account</h1>
+            <form method="POST" action="editdata.php" class="edition">
+                <label class="l1">First name : <input type="text" class="l1"name="firstn" required></label><br>
+                <label class="l1"> Old password : <input type="password" class="l1" name="pass" required></label><br>
+                <label class="l1"> New password : <input type="password" class="l1" name="pass2" required></label><br>
+                <br><br><br><br><br><br>
+    
+                <label ><input type="submit" value="Edit my account" class="button"></label>
+            </form>
+            <form method="POST" action="deldata.php">
+                <input type="submit" id="" value="Delete my account" class="button"style="margin-top:5px">
+            </form>
+    
+        </div>
+        
+    </body>
+</html>
